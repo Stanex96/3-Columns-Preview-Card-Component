@@ -1,0 +1,64 @@
+/* Chaque division */
+div{
+    height: 600px; width: 400px;
+    display: inline-block;
+    margin-top: 3.5%;
+    font-size: 0;
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.blue{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.green{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+/* Style images */
+img{
+    padding-left: 15%; padding-top: 15%; padding-bottom: 5%;
+}
+
+/* Style du/des textes */
+strong{
+    color: white; font-size: 30px; text-align: left;
+    margin-left: 15%;
+}
+
+.txt{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 15%; margin-right: 41.5%; margin-top: 7.5%;
+    text-align: left; line-height: 25px;
+}
+
+.txtorange{
+    background-color: white; background-size: cover;
+    border-radius: 25px;
+    font-size: 15px; text-align: left; color: hsl(31, 77%, 52%);
+    padding-left: 6.5%; padding-top: 5%; padding-bottom: 5%; margin-right: 55%; margin-left: 15%; margin-top: 50%;
+}
+
+.txtblue{
+    background-color: white; background-size: cover;
+    border-radius: 25px;
+    font-size: 15px; text-align: left; color: hsl(184, 100%, 22%);
+    padding-left: 6.5%; padding-top: 5%; padding-bottom: 5%; margin-right: 55%; margin-left: 15%; margin-top: 50%;
+}
+
+.txtgreen{
+    background-color: white; background-size: cover;
+    border-radius: 25px;
+    font-size: 15px; text-align: left; color: hsl(179, 100%, 13%);
+    padding-left: 6.5%; padding-top: 5%; padding-bottom: 5%; margin-right: 55%; margin-left: 15%; margin-top: 50%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
